@@ -1,6 +1,6 @@
 {% set name = "ipydatawidgets" %}
-{% set version = "3.1.0" %}
-{% set sha256 = "973370568799469ed2a6c402f93e2fa8a63c74e044ea1959def3261fb6158464" %}
+{% set version = "3.2.0" %}
+{% set sha256 = "80415b5a0c78bb46a1d5b06c3d9cc8c4fbcf25ae96a285d51004edbb9e05881a" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
