@@ -1,6 +1,6 @@
 {% set name = "ipydatawidgets" %}
-{% set version = "3.2.0" %}
-{% set sha256 = "80415b5a0c78bb46a1d5b06c3d9cc8c4fbcf25ae96a285d51004edbb9e05881a" %}
+{% set version = "4.0.0" %}
+{% set sha256 = "b88219b58c3bb61d1af960860b62838fdcc6401d4e1b4449b4c93738858dd32d" %}
 
 package:
   name: {{ name|lower }}
