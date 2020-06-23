@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
@@ -24,7 +24,6 @@ requirements:
     - ipywidgets >=7,<8
     - numpy
     - traittypes >=0.2
-    - ipyscales
 
 test:
   imports:
@@ -32,7 +31,7 @@ test:
 
 about:
   home: http://github.com/vidartf/{{ name }}
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
   summary: 'A set of widgets to help facilitate reuse of large datasets across widgets'
@@ -40,3 +39,4 @@ about:
 extra:
   recipe-maintainers:
     - vidartf
+    - jasongrout
