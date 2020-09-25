@@ -1,6 +1,6 @@
 {% set name = "ipydatawidgets" %}
-{% set version = "4.0.1" %}
-{% set sha256 = "8fccd7c55d986de572813aea2ee219fa148861ff50b6b973e906a792fcbdecc0" %}
+{% set version = "4.1.0" %}
+{% set sha256 = "d9f94828c11e3b40350fb14a02e027f42670a7c372bcb30db18d552dcfab7c01" %}
 
 package:
   name: {{ name|lower }}
@@ -12,8 +12,8 @@ source:
 
 build:
   noarch: python
-  number: 1
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -34,7 +34,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
-  summary: 'A set of widgets to help facilitate reuse of large datasets across widgets'
+  summary: A set of widgets to help facilitate reuse of large datasets across widgets
 
 extra:
   recipe-maintainers:
