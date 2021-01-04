@@ -5,11 +5,9 @@ Home: http://github.com/vidartf/ipydatawidgets
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ipydatawidgets-feedstock/blob/master/LICENSE.txt)
 
 Summary: A set of widgets to help facilitate reuse of large datasets across widgets
-
-
 
 Current build status
 ====================
