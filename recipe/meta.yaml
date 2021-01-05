@@ -19,10 +19,12 @@ requirements:
   host:
     - python
     - pip
+    - jupyter-packaging
   run:
     - python
     - ipywidgets >=7,<8
     - numpy
+    - six
     - traittypes >=0.2
 
 test:
