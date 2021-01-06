@@ -1,6 +1,6 @@
 {% set name = "ipydatawidgets" %}
-{% set version = "4.1.0" %}
-{% set sha256 = "d9f94828c11e3b40350fb14a02e027f42670a7c372bcb30db18d552dcfab7c01" %}
+{% set version = "4.2.0" %}
+{% set sha256 = "d0e4b58b59b508165e8562b8f5d1dbfcd739855847ec0477bd9185a5e9b7c5bc" %}
 
 package:
   name: {{ name|lower }}
@@ -19,10 +19,14 @@ requirements:
   host:
     - python
     - pip
+    - jupyter-packaging
+    - jupyterlab >=3,<4
+    - nodejs
   run:
     - python
     - ipywidgets >=7,<8
     - numpy
+    - six
     - traittypes >=0.2
 
 test:
